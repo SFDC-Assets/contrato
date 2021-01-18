@@ -1,0 +1,30 @@
+{
+  "orgName": "A Property Developer... ",
+  "edition": "Developer",
+  "description": "Predict Contracts at risk",
+  "language": "es_MX",
+  "country": "EC",
+  "features": ["EinsteinAnalyticsPlus","EinsteinBuilder","AnalyticsAdminPerms","EinsteinBuilderFree"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "enableAuditFieldsInactiveOwner":true,
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
+    },
+    "analyticsSettings": {
+      "enableInsights": true,
+      "enableWaveRecordNavigation":true,
+      "enableWaveReplication":true,
+      "enableWaveTemplate":true
+    }
+    
+  }
+}
+

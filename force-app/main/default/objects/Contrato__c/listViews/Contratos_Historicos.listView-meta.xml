@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contratos_Historicos</fullName>
+    <columns>NAME</columns>
+    <columns>Cuenta__c</columns>
+    <columns>Nombre_del_Proyecto__c</columns>
+    <columns>Categoria_Producto__c</columns>
+    <columns>Modelo_Casa__c</columns>
+    <columns>Lote_M2__c</columns>
+    <columns>Ingresos__c</columns>
+    <columns>Ocupacion__c</columns>
+    <columns>Plantas__c</columns>
+    <columns>Pagos_Vencidos__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estado_Contrato__c</field>
+        <operation>equals</operation>
+        <value>RESCILIADO,PAGO</value>
+    </filters>
+    <label>Contratos Historicos</label>
+</ListView>

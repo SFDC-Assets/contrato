@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ocupacion__c</fullName>
+    <externalId>false</externalId>
+    <label>Ocupacion</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SECTOR PRIVADO</fullName>
+                <default>false</default>
+                <label>SECTOR PRIVADO</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO</label>
+            </value>
+            <value>
+                <fullName>INDEPENDIENTE</fullName>
+                <default>false</default>
+                <label>INDEPENDIENTE</label>
+            </value>
+            <value>
+                <fullName>JUBILADO</fullName>
+                <default>false</default>
+                <label>JUBILADO</label>
+            </value>
+            <value>
+                <fullName>NINGUNO</fullName>
+                <default>false</default>
+                <label>NINGUNO</label>
+            </value>
+            <value>
+                <fullName>PROFESIONAL</fullName>
+                <default>false</default>
+                <label>PROFESIONAL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
