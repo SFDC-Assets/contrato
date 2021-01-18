@@ -10,8 +10,8 @@ Esta scratch org se usara como un recurso educativo para crear un modelo predict
 - Ejecuta todos los comandos en orgInit.sh. Es simplemente una serie de comandos SFDX que creaan la org, despliegan la metadata y  luego carga los datos en la nueva scratch org. 
 - Crea el model predictivo paso a paso (con estas instruccciones)
 
-## Contribute
-
+## Contribuye
+Alguna otra idea? 
 
 
 
