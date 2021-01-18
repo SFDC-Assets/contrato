@@ -6,3 +6,4 @@ sfdx force:data:bulk:upsert -s Account -f data/Cuenta.csv -i Id_Externo__c -w 3
 sfdx force:data:bulk:upsert -s Account -f data/CuentaContratosActivos.csv -i Id_Externo__c -w 3
 sfdx force:data:bulk:upsert -s Contrato__c -f data/ContratosHistoricosData2.csv -i Id_Externo__c -w 3
 sfdx force:data:bulk:upsert -s Contrato__c -f data/ContratosActivos2.csv -i Id_Externo__c -w 3
+sfdx force:org:open
