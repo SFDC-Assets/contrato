@@ -1,5 +1,5 @@
 {
-  "orgName": "A Property Developer... ",
+  "orgName": "Inmobiliaria Segura",
   "edition": "Developer",
   "description": "Predict Contracts at risk",
   "language": "es_MX",
@@ -13,10 +13,8 @@
       "enableS1EncryptedStoragePref2": false
     },
     "securitySettings": {
-      "enableAuditFieldsInactiveOwner":true,
-      "passwordPolicies": {
-        "enableSetPasswordInApi": true
-      }
+      "enableAuditFieldsInactiveOwner":true
+      
     },
     "analyticsSettings": {
       "enableInsights": true,
